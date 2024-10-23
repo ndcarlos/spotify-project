@@ -22,7 +22,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
 
 # retrieve the top 10 artists for the current user using the 'medium_term' time range
 try:
-    results = sp.current_user_top_artists(limit=10, time_range='medium_term')
+    results = sp.current_user_top_artists(limit=3, time_range='medium_term')
 except spotipy.exceptions.SpotifyException as e:
     print(f"Error retrieving top artists: {e}")
     results = {'items': []}  # Handle error by providing an empty list for items
