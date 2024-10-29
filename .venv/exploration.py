@@ -1,4 +1,3 @@
-# import necessary libraries
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
@@ -12,7 +11,7 @@ client_id = os.getenv('SPOTIPY_CLIENT_ID')
 client_secret = os.getenv('SPOTIPY_CLIENT_SECRET')
 redirect_uri = os.getenv('SPOTIPY_REDIRECT_URI')
 
-# authenticate with Spotify API
+
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                  client_secret=client_secret,
                                                  redirect_uri=redirect_uri,
@@ -20,16 +19,25 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                          'user-read-recently-played',
                                                          'user-top-read']))
 
-# retrieve the top 3 artists for the current user using the 'medium_term' time range
-try:
-    results = sp.current_user_top_artists(limit=3, time_range='medium_term')
-except spotipy.exceptions.SpotifyException as e:
-    print(f"Error retrieving top artists: {e}")
-    results = {'items': []}  # Handle error by providing an empty list for items
+
+def get_artist_id(artist_name):
+    # Search for the artist by name
+    search_results = sp.search(q=artist_name, type='artist', limit=1)
+
+    # Check if any results were found
+    if search_results['artists']['items']:
+        artist = search_results['artists']['items'][0]
+        artist_id = artist['id']
+        artist_name = artist['name']
+        print(f"Artist: {artist_name}, ID: {artist_id}")
+        return artist_id
+    else:
+        print(f"No artist found with the name: {artist_name}")
+        return None
 
 
-# iterate over the list of the artists returned in the results
-for idx, artist in enumerate(results['items']):
-    # print the index (starting from 1) and the name of each artist
-    print(f"{idx + 1}. {artist['name']}")
+# Example usage with multiple artists
+artists = ["Dua Lipa", "Beyoncé", "Charli XCX"]
+artist_ids = {artist: get_artist_id(artist) for artist in artists}
 
+print(artist_ids['Dua Lipa'])
