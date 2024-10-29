@@ -1,2 +1,4 @@
-# spotify-project
-Utilizing spotipy python library to access Spotify WebAPI
+# Spotify Web API
+
+
+This repository will cover a range of documents all utilizing Spotify's Web API
