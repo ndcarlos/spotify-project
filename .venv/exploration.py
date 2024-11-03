@@ -37,22 +37,26 @@ def get_artist_id(artist_name):
 
 
 saved_tracks = sp.current_user_saved_tracks()
-print(saved_tracks, 10)
 
-artist_ids = set()
+# artist_ids = set()
+#
+# for item in saved_tracks['items']:
+#     for artist in item['track']['artists']:
+#         artist_ids.add(artist['id'])
+#
+# for id in artist_ids:
+#     print(id)
 
-for item in saved_tracks['items']:
-    for artist in item['track']['artists']:
-        artist_ids.add(artist['id'])
+unique_artist_names = set()
+unique_artist_ids = set()
 
-for id in artist_ids:
-    print(id)
 
-# for idx, item in enumerate(saved_tracks['items']):
-#     track = item['track']
-#     artists = track['artists']
-#     for artist in artists:
-#         print(artist['name'])
+for idx, item in enumerate(saved_tracks['items']):
+    track = item['track']
+    artists = track['artists']
+    for artist in artists:
+        unique_artist_names.add(artist['name'])
+        unique_artist_ids.add(get_artist_id(artist['name']))
 
 # Example usage with multiple artists
 # artists = ["Dua Lipa", "Beyoncé", "Charli XCX"]
