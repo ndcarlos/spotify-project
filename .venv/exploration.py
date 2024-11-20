@@ -1,4 +1,4 @@
-import spotipy
+import spotipy as sp
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
 import os
@@ -12,7 +12,7 @@ client_secret = os.getenv('SPOTIPY_CLIENT_SECRET')
 redirect_uri = os.getenv('SPOTIPY_REDIRECT_URI')
 
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
+sp = sp.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                  client_secret=client_secret,
                                                  redirect_uri=redirect_uri,
                                                  scope=['user-library-read',
@@ -37,16 +37,14 @@ def get_artist_id(artist_name):
 
 
 saved_tracks = sp.current_user_saved_tracks()
-print(saved_tracks, 10)
-
 artist_ids = set()
 
 for item in saved_tracks['items']:
     for artist in item['track']['artists']:
         artist_ids.add(artist['id'])
+        artist_ids.add(artist['name'])
 
-for id in artist_ids:
-    print(id)
+print(artist_ids)
 
 # for idx, item in enumerate(saved_tracks['items']):
 #     track = item['track']
