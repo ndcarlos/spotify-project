@@ -30,6 +30,7 @@ response = requests.post(token_url, headers = headers, data = data)
 # print response
 if response.status_code == 200:
     access_token = response.json().get('access_token')
-    print(f"Access Token: {access_token}")
+    # print(f"Access Token: {access_token}")
 else:
-    print(f"Error: {response.status_code}, {response.text}")
+    # print(f"Error: {response.status_code}, {response.text}")
+    exit()
