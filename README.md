@@ -1,6 +1,6 @@
 # Spotify Web API
 
-This repository contains various files, scripts, and applications I created using Spotify's Web API. The files serve different purposes: some are standalone applications, while others are reusable functions and components used across multiple scripts.
+This repository contains various files, scripts, and applications I created using Spotify's Web API. The files serve different purposes: some are standalone applications, while others are reusable functions and scripts used across multiple applications.
 
 ## Table of Contents
 
