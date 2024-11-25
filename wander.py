@@ -1,5 +1,6 @@
-# Selecting random artist
+# wander - get lost exploring new artists
 
+# import packages
 import random
 import string
 import spotipy
@@ -26,7 +27,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                         'user-top-read',
                                                         'playlist-modify-public']))
 # retrieving random artist
-def get_artists_by_genre(genre_name = None):
+def get_artists_by_genre(genre_name=None):
     # Search for artists with a specific genre name
     if genre_name:
         result = sp.search(q=f'genre:{genre_name}' if genre_name else '',
@@ -34,19 +35,14 @@ def get_artists_by_genre(genre_name = None):
                            limit=50)
     else:
         result = sp.search(q='*',
-                           type = 'artist',
-                           limit = 50)
+                           type='artist',
+                           limit=50)
 
     if result['artists']['items']:
         random_artist = random.choice(result['artists']['items'])
         return random_artist
     else:
         return None
-# print(f"Selected Artist: {random_artist['name']}")
-# print(f"Genres: {random_artist['genres']}")
-# print(f"Artist ID : {random_artist['id']}")
-# print(f"Spotify URL: {random_artist['external_urls']['spotify']}")
-
 
 # retrieving top songs for random_artist
 def get_top_tracks(artist_id, market="US"):
@@ -68,9 +64,9 @@ def get_or_create_playlist(user_id, playlist_name):
     # creating new playlist if it does not exist
     print(f"Creating new playlist {playlist_name}")
     new_playlist = sp.user_playlist_create(
-        user = user_id,
-        name = playlist_name,
-        public = True)
+        user=user_id,
+        name=playlist_name,
+        public=True)
     return(new_playlist['id'])
 
 def add_tracks_to_playlist(playlist_id, track_ids):
@@ -79,17 +75,14 @@ def add_tracks_to_playlist(playlist_id, track_ids):
     print(f"Genres: {random_artist['genres']}")
     print(f"Added {len(track_ids)} tracks by to the playlist.")
 
-artist = get_artists_by_genre()
-top_tracks = get_top_tracks(artist['id'])
-
-
-
 
 # User inputs
 genre = input("If you would like to wander within a specific genre, input it here (Or press Enter to skip)").strip()
 track_count = input("Specify the number of steps you want to wander down this path (Default is 5)")
 track_count = int(track_count) if track_count.isdigit() else 5
 
+# For production
+# Create input for user_id or url to extract from
 
 # Get the user's ID
 user_id = sp.current_user()['id']
