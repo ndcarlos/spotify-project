@@ -22,6 +22,7 @@ This repository contains various files, scripts, and applications I created usin
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
 ## Global dependencies
+_Note: local dependencies for projects will be detailed in their respective READMEs_
    * ### [Spotify Web API](https://developer.spotify.com/documentation/web-api)
       *  [Spotipy](https://spotipy.readthedocs.io/en/2.24.0/) is a lightweight Python library for the Spotify Web API. With Spotipy you get full access to all of the music data provided by the Spotify platform.  
    * ### Libraries
@@ -40,23 +41,16 @@ git clone https://github.com/ndcarlos/spotify-project
 
 ## Applications
 
-Brief overview of the applications in the repo and links to their readmes
+*🏗️ [`wander.py`](
 
 
 ## Scripts 
 
-Description of some used scripts or functions in the repo
+* [get_token.py](https://github.com/ndcarlos/spotify-project/blob/main/get_token.py): Retrieves authorization tokens from Spotify Web API and stores it as `access_token`
 
 
-## Testing
+* 🏗️ truffle.py: Playback script made to act as a true shuffle. Shuffle through all of your liked songs with no repeats.
 
-Come up with basic signal response to make sure app is installed and can function properly
-
-## Bug reports
-
-Coming Soon: Google forms to flag bugs or noticed issues.
-
-Until then please reach out to me directly.
 
 ## Contribute
 
@@ -71,7 +65,7 @@ Please make sure to update tests as appropriate.
 
 [react-markdown][react-markdown] - Project which served as an inspiration for this README
 
-[Blog post templates][blog-post-templates] - Used to structure this template as an easy to read blog post
+[Blog post templates][blog-post-templates] - Used to structure this template as an easy-to-read blog post
 
 [About markdown][about-markdown] - Why should you use markdown?
 
