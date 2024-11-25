@@ -6,18 +6,16 @@ This repository contains various files, scripts, and applications I created usin
 
 *   [What is covered in this README?](#what-is-covered-in-this-README)
 *   [Global Dependencies](#getting-started)
+    *   [Spotify Web API](#spotify-web-api)
     *   [Libraries](#libraries)
-    *   [Install](#install)
-    *   [Usage](#usage)
+*   [Install](#install)
 *   [Applications](#applications)
 *   [Scripts](#scripts)
-*   [Used Technologies](#used-technologies)
 *   [Testing](#testing)
 *   [Bug reports](#bug-reports)
 *   [Contribute](#contribute)
 *   [License](#license)
 *   [Sources](#sources)
-*   [Conclusion](#conclusion)
 
 ## What is covered in this README
 
