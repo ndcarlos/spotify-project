@@ -10,8 +10,6 @@ This repository contains various files, scripts, and applications I created usin
     *   [📚 Libraries](#libraries)
 *   [⏬ Install](#install)
 *   [🗂️ Contents](#contents)
-   * [💻 Applications](#applications)
-   * [📝 Scripts](#scripts)
 *   [🖊️ Testing](#testing)
 *   [🐛 Bug reports](#bug-reports)
 *   [🤝 Contribute](#contribute)
