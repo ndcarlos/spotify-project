@@ -4,18 +4,19 @@ This repository contains various files, scripts, and applications I created usin
 
 ## Table of Contents
 
-*   [🙋What is covered in this README?](#what-is-covered-in-this-README)
-*   [🌐Global Dependencies](#getting-started)
-    *   [🕸️Spotify Web API](#spotify-web-api)
-    *   [📚Libraries](#libraries)
-*   [⏬Install](#install)
-*   [💻Applications](#applications)
-*   [📝Scripts](#scripts)
-*   [🖊️Testing](#testing)
-*   [🐛Bug reports](#bug-reports)
-*   [🤝Contribute](#contribute)
-*   [©️License](#license)
-*   [🔌Sources](#sources)
+*   [🙋 What is covered in this README?](#what-is-covered-in-this-README)
+*   [🌐 Global Dependencies](#getting-started)
+    *   [🕸️ Spotify Web API](#spotify-web-api)
+    *   [📚 Libraries](#libraries)
+*   [⏬ Install](#install)
+*   [🗂️ Contents](#contents)
+   *   [💻 Applications](#applications)
+   *   [📝 Scripts](#scripts)
+*   [🖊️ Testing](#testing)
+*   [🐛 Bug reports](#bug-reports)
+*   [🤝 Contribute](#contribute)
+*   [©️ License](#license)
+*   [🔌 Sources](#sources)
 
 ## 🙋 What is covered in this README
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
