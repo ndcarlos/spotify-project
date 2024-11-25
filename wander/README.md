@@ -12,8 +12,6 @@ With endless artists to choose from, it is hard to find new music to enjoy. Wand
 *   [🗂️ Main Contents](#main-contents)
    *   [💻 Applications](#applications)
    *   [📝 Scripts](#scripts) 
-*   [🖊️ Testing](#testing)
-*   [🐛 Bug reports](#bug-reports)
 *   [🤝 Contribute](#contribute)
 *   [©️ License](#license)
 *   [🔌 Sources](#sources)
