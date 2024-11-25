@@ -18,7 +18,6 @@ This repository contains various files, scripts, and applications I created usin
 *   [🔌Sources](#sources)
 
 ## 🙋 What is covered in this README
-
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
 ## 🌐 Global dependencies
@@ -31,29 +30,25 @@ _Note: local dependencies for projects will be detailed in their respective READ
 
 
 ## ⏬ Install
-
 Use git to clone this repository into your computer.
 
 ```
 git clone https://github.com/ndcarlos/spotify-project
 ```
 
+## 🗂️ Contents
+Contents denoted with 🏗️ are currently under construction.
 
-## 💻 Applications
-
-*🏗️ [`wander.py`](https://github.com/ndcarlos/spotify-project/blob/main/wander/README.md): New artist discovery tool.
-
-
-## 📝 Scripts 
-
-* [`get_token.py`](https://github.com/ndcarlos/spotify-project/blob/main/get_token.py): Retrieves authorization tokens from Spotify Web API and stores it as `access_token`
+   * ### 💻 Applications
+      * 🏗️ [`wander.py`](https://github.com/ndcarlos/spotify-project/blob/main/wander/README.md): New artist discovery tool.
 
 
-* 🏗️ `truffle.py`: Playback script made to act as a true shuffle. Shuffle through all of your liked songs with no repeats.
+   * ### 📝 Scripts 
+      * [`get_token.py`](https://github.com/ndcarlos/spotify-project/blob/main/get_token.py): Retrieves authorization tokens from Spotify Web API and stores it as `access_token`
+      * 🏗️ `truffle.py`: Playback script made to act as a true shuffle. Shuffle through all of your liked songs with no repeats.
 
 
 ## 🤝 Contribute
-
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
