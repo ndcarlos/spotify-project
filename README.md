@@ -23,9 +23,10 @@ This README intends to provide a high-level overview of the files and folders of
 
 ## Global dependencies
    * ### [Spotify Web API](https://developer.spotify.com/documentation/web-api)
-      *  
+      *  [Spotipy](https://spotipy.readthedocs.io/en/2.24.0/) is a lightweight Python library for the Spotify Web API. With Spotipy you get full access to all of the music data provided by the Spotify platform.  
    * ### Libraries
-      * library name - lin to documentation
+      * [dotenv](https://pypi.org/project/python-dotenv/) - Used to read key-value pairs from a `.env` file and can set them as environment variables. Specifically utilized in this repo to boost security by storing and loading sensitive API credentials.
+      * [os](https://docs.python.org/3/library/os.html) - Python's built-in module for interacting with the operating system. This is used with `dotenv` to execute the retrieval of environmental variables.
 
 
 ## Install
