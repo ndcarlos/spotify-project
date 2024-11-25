@@ -41,7 +41,7 @@ git clone https://github.com/ndcarlos/spotify-project
 
 ## Applications
 
-*🏗️ [`wander.py`](
+*🏗️ [`wander.py`](https://github.com/ndcarlos/spotify-project/blob/main/wander/README.md): New artist discovery tool.
 
 
 ## Scripts 
