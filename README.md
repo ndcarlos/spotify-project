@@ -22,7 +22,8 @@ This repository contains various files, scripts, and applications I created usin
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
 ## Global dependencies
-   * ### Spotify Web API
+   * ### [Spotify Web API](https://developer.spotify.com/documentation/web-api)
+      *  
    * ### Libraries
       * library name - lin to documentation
 
