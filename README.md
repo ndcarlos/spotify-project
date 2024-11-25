@@ -5,8 +5,8 @@ This repository contains various files, scripts, and applications I created usin
 ## Contents
 
 *   [What is covered in this README?](#what-is-covered-in-this-README)
-*   [Getting started](#getting-started)
-    *   [Requirements](#requirements)
+*   [Global Dependencies](#getting-started)
+    *   [Libraries](#libraries)
     *   [Install](#install)
     *   [Usage](#usage)
 *   [Applications](#applications)
@@ -24,26 +24,17 @@ This repository contains various files, scripts, and applications I created usin
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
 ## Global dependencies
+   * ### Spotify Web API
+   * ### Libraries
+      * library name - lin to documentation
 
-  * ### Libraries
-    * library name - lin to documentation
 
-Use the well known command to copy the template
-
-```bash
-# Copy the content
-CTRL + C
-
-# Pase into your project
-CTRL + V
-```
-
-### Install
+## Install
 
 Use git to clone this repository into your computer.
 
 ```
-git clone https://gitlab.com/kopino4-templates/readme-template
+git clone https://github.com/ndcarlos/spotify-project
 ```
 
 
@@ -61,11 +52,11 @@ Description of some used scripts or functions in the repo
 
 Come up with basic signal response to make sure app is installed and can function properly
 
-## Logging
+## Bug reports
 
-Logging is essential. How do you know something went wrong if the computer doesn't tell you? Logs
-are the first place to search for bugs. Explain to everybody how you can customize it or used it
-in the right way.
+Coming Soon: Google forms to flag bugs or noticed issues.
+
+Until then please reach out to me directly.
 
 ## Contribute
 
