@@ -29,22 +29,14 @@ _Note: local dependencies for projects will be detailed in their respective READ
 
 
 ## ⏬ Install
-Use git to clone this repository into your computer.
+Use git to clone this project into your computer.
 
 ```
-git clone https://github.com/ndcarlos/spotify-project
+git clone https://github.com/ndcarlos/spotify-project/wander
 ```
 
 ## 🗂️ Main Contents
 Contents denoted with 🏗️ are currently under construction.
-
-   * ### 💻 Applications
-      * 🏗️ [`wander.py`](https://github.com/ndcarlos/spotify-project/blob/main/wander/README.md): New artist discovery tool.
-
-
-   * ### 📝 Scripts 
-      * [`get_token.py`](https://github.com/ndcarlos/spotify-project/blob/main/get_token.py): Retrieves authorization tokens from Spotify Web API and stores it as `access_token`
-      * 🏗️ `truffle.py`: Playback script made to act as a true shuffle. Shuffle through all of your liked songs with no repeats.
 
 
 ## 🤝 Contribute
