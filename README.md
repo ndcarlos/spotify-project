@@ -41,6 +41,7 @@ git clone https://github.com/ndcarlos/spotify-project
 Contents denoted with 🏗️ are currently under construction.
 
    * ### 💻 Applications
+     (each contained in their own folder)
       * 🏗️ [`wander.py`](https://github.com/ndcarlos/spotify-project/blob/main/wander/README.md): New artist discovery tool.
 
 
