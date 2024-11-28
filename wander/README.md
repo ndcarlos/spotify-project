@@ -20,13 +20,10 @@ With endless artists to choose from, it is hard to find new music to enjoy. Wand
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
 ## 🌐 Global dependencies
-_Note: local dependencies for projects will be detailed in their respective READMEs_
-   * ### 🕸️ [Spotify Web API](https://developer.spotify.com/documentation/web-api)
-      *  [Spotipy](https://spotipy.readthedocs.io/en/2.24.0/) is a lightweight Python library for the Spotify Web API. With Spotipy you get full access to all of the music data provided by the Spotify platform.  
-   * ### 📚 Libraries
-      * [dotenv](https://pypi.org/project/python-dotenv/) - Used to read key-value pairs from a `.env` file and can set them as environment variables. Specifically utilized in this repo to boost security by storing and loading sensitive API credentials.
-      * [os](https://docs.python.org/3/library/os.html) - Python's built-in module for interacting with the operating system. This is used with `dotenv` to execute the retrieval of environmental variables.
+See the repository level [README](https://github.com/ndcarlos/spotify-project/blob/main/README.md).
 
+## 📍 Local dependencies
+* [random](https://docs.python.org/3/library/random.html#random.choice) - This module implements pseudo-random number generators for various distributions. Here it is used in selecting a random artist from a JSON object.
 
 ## ⏬ Install
 Use git to clone this project into your computer.
@@ -37,6 +34,8 @@ git clone https://github.com/ndcarlos/spotify-project/wander
 
 ## 🗂️ Main Contents
 Contents denoted with 🏗️ are currently under construction.
+
+
 
 
 ## 🤝 Contribute
