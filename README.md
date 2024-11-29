@@ -1,4 +1,4 @@
-![Project Header](wander_ex20241129.pdf)
+![Project Header](spotifyheader.jpg)
 
 # Spotify Web API
 
@@ -40,7 +40,7 @@ git clone https://github.com/ndcarlos/spotify-project
 ```
 
 ## Contents
-Contents denoted with 🏗️ are currently under construction.
+Contents denoted with 🏗️ are not yet complete.
 
    * ### Applications
      (each contained in their own folder)
