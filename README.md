@@ -4,7 +4,7 @@ This repository contains various files, scripts, and applications I created usin
 
 ## Table of Contents
 
-*   [🙋 What is covered in this README?](#what-is-covered-in-this-readme)
+*   [🙋 What is covered in this README?](#what-is-covered-in-this-readme?)
 *   [🌐 Global Dependencies](#global-dependencies)
     *   [🕸️ Spotify Web API](#spotify-web-api)
     *   [📚 Libraries](#libraries)
