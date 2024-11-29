@@ -4,14 +4,14 @@ This repository contains various files, scripts, and applications I created usin
 
 ## Table of Contents
 
-*   [🙋 What is covered in this README?](#what-is-covered-in-this-README)
-*   [🌐 Global Dependencies](#getting-started)
+*   [🙋 What is covered in this README?](#what-is-covered-in-this-readme)
+*   [🌐 Global Dependencies](#global-dependencies)
     *   [🕸️ Spotify Web API](#spotify-web-api)
     *   [📚 Libraries](#libraries)
 *   [⏬ Install](#install)
 *   [🗂️ Contents](#contents)
-   *   💻[Applications](#applications)
-   *   [📝 Scripts](#scripts) 
+   *   [💻 Applications](#applications)
+   *   [📝 Scripts](#scripts)
 *   [🖊️ Testing](#testing)
 *   [🐛 Bug reports](#bug-reports)
 *   [🤝 Contribute](#contribute)
