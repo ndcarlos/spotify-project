@@ -7,13 +7,10 @@ With endless artists to choose from, it is hard to find new music to enjoy. Wand
 ## Table of Contents
 
 *   [🙋 What is covered in this README?](#what-is-covered-in-this-README)
-*   [🌐 Global Dependencies](#getting-started)
-    *   [🕸️ Spotify Web API](#spotify-web-api)
-    *   [📚 Libraries](#libraries)
+*   [🌐 Local Dependencies](#getting-started)
+  None at the moment!
 *   [⏬ Install](#install)
 *   [🗂️ Main Contents](#main-contents)
-   *   [💻 Applications](#applications)
-   *   [📝 Scripts](#scripts) 
 *   [🤝 Contribute](#contribute)
 *   [©️ License](#license)
 *   [🔌 Sources](#sources)
@@ -35,8 +32,9 @@ git clone https://github.com/ndcarlos/spotify-project/wander
 ```
 
 ## Main Contents
-Contents denoted with 🏗️ are currently under construction.
-
+Contents denoted with 🏗️ are not yet executeable.
+* 
+* [wander_ex20241129](https://github.com/ndcarlos/spotify-project/blob/main/wander/wander_ex20241129.png) - Header image for the readme
 
 
 
