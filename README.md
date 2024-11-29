@@ -1,3 +1,5 @@
+![Project Header](wander_ex20241129.pdf)
+
 # Spotify Web API
 
 This repository contains various files, scripts, and applications I created using Spotify's Web API. The files serve different purposes: some are standalone applications, while others are reusable functions and scripts used across multiple applications.
