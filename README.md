@@ -2,20 +2,18 @@
 
 # Spotify Web API
 
-This repository contains various files, scripts, and applications I created using Spotify's Web API. The files serve different purposes: some are standalone applications, while others are reusable functions and scripts used across multiple applications.
+This repository contains various files, scripts, and applications I created using Spotify's Web API. The files serve different purposes: some are standalone applications, while others are reusable functions and scripts that may be used across multiple applications.
 
 ## Table of Contents
 
 *   🙋 [What is covered in this README?](#what-is-covered-in-this-readme)
 *   🌐 [Global Dependencies](#global-dependencies)
-    *   🕸️ [Spotify Web API](#spotify-web-api)
-    *   📚 [Libraries](#libraries)
+   *   🕸️ [Spotify Web API](#spotify-web-api)
+   *   📚 [Libraries](#libraries)
 *   ⏬ [Install](#install)
 *   🗂️ [Contents](#contents)
-   *   💻 [Applications](#applications)
+   *   💻 [Projects](#projects)
    *   📝 [Scripts](#scripts)
-*   🖊️ [Testing](#testing)
-*   🐛 [Bug reports](#bug-reports)
 *   🤝 [Contribute](#contribute)
 *   ©️ [License](#license)
 *   🔌 [Sources](#sources)
@@ -24,7 +22,7 @@ This repository contains various files, scripts, and applications I created usin
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
 ## Global dependencies
-_Note: local dependencies for projects will be detailed in their respective READMEs_
+_Note: local dependencies for folders within this repository will be detailed in their respective READMEs_
    * ### [Spotify Web API](https://developer.spotify.com/documentation/web-api)
       *  [Spotipy](https://spotipy.readthedocs.io/en/2.24.0/) is a lightweight Python library for the Spotify Web API. With Spotipy you get full access to all of the music data provided by the Spotify platform.  
    * ### Libraries
@@ -40,11 +38,11 @@ git clone https://github.com/ndcarlos/spotify-project
 ```
 
 ## Contents
-Contents denoted with 🏗️ are not yet complete.
+Files denoted with 🏗️ are not yet complete.
 
-   * ### Applications
-     (each contained in their own folder)
-      * 🏗️ [`wander.py`](https://github.com/ndcarlos/spotify-project/blob/main/wander/README.md): New artist discovery tool.
+   * ### Projects
+     (each contained in their folder)
+      * 🏗️ [`wander`](https://github.com/ndcarlos/spotify-project/blob/main/wander/README.md): New artist discovery tool.
 
 
    * ### Scripts 
