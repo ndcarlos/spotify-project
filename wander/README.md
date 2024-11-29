@@ -18,37 +18,37 @@ With endless artists to choose from, it is hard to find new music to enjoy. Wand
 *   [©️ License](#license)
 *   [🔌 Sources](#sources)
 
-## 🙋 What is covered in this README
+## What is covered in this README
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
-## 🌐 Global dependencies
+## Global dependencies
 See the repository level [README](https://github.com/ndcarlos/spotify-project/blob/main/README.md).
 
-## 📍 Local dependencies
+## Local dependencies
 * [random](https://docs.python.org/3/library/random.html#random.choice) - This module implements pseudo-random number generators for various distributions. Here it is used in selecting a random artist from a JSON object.
 
-## ⏬ Install
+## Install
 Use git to clone this project into your computer.
 
 ```
 git clone https://github.com/ndcarlos/spotify-project/wander
 ```
 
-## 🗂️ Main Contents
+## Main Contents
 Contents denoted with 🏗️ are currently under construction.
 
 
 
 
-## 🤝 Contribute
+## Contribute
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## ©️ License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## 🔌 Sources
+## Sources
 
 [react-markdown][react-markdown] - Project which served as an inspiration for this README
 
