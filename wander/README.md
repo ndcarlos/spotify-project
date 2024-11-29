@@ -16,7 +16,7 @@ With endless artists to choose from, it is hard to find new music to enjoy. Wand
 *   [🔌 Sources](#sources)
 
 ## What is covered in this README
-This README intends to provide a high-level overview of the files and folders of significance in this repository. 
+This README intends to provide a high-level overview of [wander](https://github.com/ndcarlos/spotify-project/tree/main/wander) subfolder to [spotify-project](https://github.com/ndcarlos/spotify-project/tree/main). 
 
 ## Global dependencies
 See the repository level [README](https://github.com/ndcarlos/spotify-project/blob/main/README.md).
@@ -33,7 +33,7 @@ git clone https://github.com/ndcarlos/spotify-project/wander
 
 ## Main Contents
 Scripts denoted with 🏗️ are not yet complete.
-* [wander.py](https://github.com/ndcarlos/spotify-project/blob/main/wander/wander.py) - 
+* [wander.py](https://github.com/ndcarlos/spotify-project/blob/main/wander/wander.py) - New artist discovery tool.
 * [wander_ex20241129](https://github.com/ndcarlos/spotify-project/blob/main/wander/wander_ex20241129.png) - Header image for the readme
 
 
