@@ -1,3 +1,5 @@
+![Project Header](wander_ex20241129.pdf)
+
 # wander
 
 With endless artists to choose from, it is hard to find new music to enjoy. Wander creates and populates your wander👣🪩 playlist - your personalized recommendations of new artists to discover and explore. 
