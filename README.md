@@ -18,7 +18,7 @@ This repository contains various files, scripts, and applications I created usin
 *   ©️ [License](#license)
 *   🔌 [Sources](#sources)
 
-## 🙋 What is covered in this README
+🙋## What is covered in this README
 This README intends to provide a high-level overview of the files and folders of significance in this repository. 
 
 ## 🌐 Global dependencies
