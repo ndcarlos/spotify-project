@@ -1,4 +1,4 @@
-![Project Header](wander_ex20241129.pdf)
+![Project Header](wander_ex20241129.png)
 
 # wander
 
