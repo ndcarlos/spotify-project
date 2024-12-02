@@ -10,7 +10,7 @@ With endless artists to choose from, it is hard to find new music to enjoy. Wand
 *   [🙋 What is covered in this README?](#what-is-covered-in-this-readme)
 *   [🌐 Global dependencies](#global-dependencies)
 *   [📍Local dependencies](#local-dependencies)
-*   [⏬ Install](#install)
+*   [🚀 Getting started](#getting-started)
 *   [🗂️ Main contents](#main-contents)
 *   [🤝 Contribute](#contribute)
 *   [©️ License](#license)
@@ -25,12 +25,9 @@ See the repository level [README](https://github.com/ndcarlos/spotify-project/bl
 ## Local dependencies
 * [random](https://docs.python.org/3/library/random.html#random.choice) - This module implements pseudo-random number generators for various distributions. Here it is used in selecting a random artist from a JSON object.
 
-## Install
-Use git to clone this project into your computer.
+## Getting started
+See the [getting started](https://github.com/ndcarlos/spotify-project/blob/main/wander/gettingstarted.md) documentation.
 
-```
-git clone https://github.com/ndcarlos/spotify-project/wander
-```
 
 ## Main Contents
 Scripts denoted with 🏗️ are not yet complete.
