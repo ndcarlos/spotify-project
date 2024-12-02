@@ -1,27 +1,16 @@
 # wander - get lost exploring new artists
 
 # import packages
-from flask import Flask
 import random
 import spotipy
 import os
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
-from get_token import response
 
 # load environment variables
 load_dotenv()
 
-# initialize Flask app
-app = Flask(__name__)
-app.secret_key = os.getenv('FLASK_SECRET_KEY')
 
-@app.route('/')
-def home():
-    return 'Flask app with a secure key!'
-
-if __name__ == '__main__':
-    app.run(debug=True)
 
 # retrieve sensitive information from environment variables
 client_id = os.getenv('SPOTIPY_CLIENT_ID')
