@@ -16,7 +16,7 @@ With so many artists to choose from, it can be overwhelming to find new music. W
 *   [©️ License](#license)
 *   [🔌 Sources](#sources)
 
-## What is covered in this README
+## What is covered in this README?
 This README intends to provide a high-level overview of [wander](https://github.com/ndcarlos/spotify-project/tree/main/wander) subfolder to [spotify-project](https://github.com/ndcarlos/spotify-project/tree/main). 
 
 ## Global dependencies
