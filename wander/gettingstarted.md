@@ -1,5 +1,6 @@
 ## 🚀 Getting started with wander
-  
+If you run into any issues along the way please don't hesitate to reach out to me for assistance! 
+
   1. 👯 Clone the repository
   * Use git to clone this project onto your machine:
   
