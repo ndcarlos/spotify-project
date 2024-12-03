@@ -16,7 +16,7 @@
 
   * Fill in the placeholders in the ```.env``` file with your Spotify API credentials. To obtain your API credentials: <br>
         1. Go to the [Spotify Developer Dashboard](https://developer.spotify.com) <br>
-        2. Create a new application <br>
+        2. Create a new application (follow the Web API Documentation [here](https://developer.spotify.com/documentation/web-api))<br>
         3. Copy the ```Client ID```, ```Client Secret```, and set your ```Redirect URI```<br>
 
   3. ⏬ Install Dependencies
