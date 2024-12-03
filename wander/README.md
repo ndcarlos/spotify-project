@@ -3,7 +3,7 @@
 
 # wander
 
-With so many artists to choose from, it can be overwhelming to find new music. Wander curates and fills your wander👣🪩 playlist with personalized recommendations, helping you discover and explore fresh artists.
+With so many artists to choose from, it can be overwhelming to find new music. Wander curates and fills your wander👣🪩 playlist with personalized recommendations, helping you chart a new path to discover and explore fresh artists.
 
 ## Table of Contents
 
