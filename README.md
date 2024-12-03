@@ -1,6 +1,6 @@
 ![Project Header](spotifyheader.jpg)
 
-# Spotify Web API
+# Spotify Project
 
 This repository contains various files, scripts, and applications I created using Spotify's Web API. The files serve different purposes: some are standalone applications, while others are reusable functions and scripts that may be used across multiple applications.
 
