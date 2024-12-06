@@ -69,7 +69,6 @@ Please make sure to update tests as appropriate.
 [Markdown Cheat Sheet][markdown-cheatsheet] - Get a fast overview of the syntax
 
 [//]: # "Source definitions"
-[react-markdown]: https://github.com/remarkjs/react-markdown "React-markdown project"
 [blog-post-templates]: https://backlinko.com/hub/content/blog-post-templates "Backlinko blog post templates"
 [about-markdown]: https://www.markdownguide.org/getting-started/ "Introduction to markdown"
 [markdown-cheatsheet]: https://www.markdownguide.org/cheat-sheet/ "Markdown Cheat Sheet"
