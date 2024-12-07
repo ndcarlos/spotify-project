@@ -84,6 +84,8 @@ track_count = int(track_count) if track_count.isdigit() else 5
 # Create input for user_id or url to extract from
 
 # Get the user's ID
+
+
 user_id = sp.current_user()['id']
 
 random_artist = get_artists_by_genre(genre_name= genre)
