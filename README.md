@@ -47,7 +47,6 @@ Files denoted with 🏗️ are not yet complete.
 
    * ### Scripts 
       * [`get_token.py`](https://github.com/ndcarlos/spotify-project/blob/main/get_token.py): Retrieves authorization tokens from Spotify Web API and stores it as `access_token`
-      * 🏗️ `truffle.py`: Playback script made to act as a true shuffle. Shuffle through all of your liked songs with no repeats.
 
 
 ## Contribute
