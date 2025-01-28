@@ -25,6 +25,6 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id,
                                                          'user-top-read']))
 
 # choose artist at random
-artist = sp.
+
 
 # retrieve n songs at random by artist

@@ -1,7 +1,7 @@
 # wander - get lost exploring new artists
 
 # import packages
-from flask import Flask
+# from flask import Flask
 import random
 import spotipy
 import os
@@ -13,15 +13,14 @@ from get_token import response
 load_dotenv()
 
 # initialize Flask app
-app = Flask(__name__)
-app.secret_key = os.getenv('FLASK_SECRET_KEY')
+# app = Flask(__name__)
+# app.secret_key = os.getenv('FLASK_SECRET_KEY')
 
-@app.route('/')
-def home():
-    return 'Flask app with a secure key!'
+# @app.route('/')
+# def home():
+#     return 'Flask app with a secure key!'
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#
 
 # retrieve sensitive information from environment variables
 client_id = os.getenv('SPOTIPY_CLIENT_ID')
@@ -94,7 +93,7 @@ track_count = int(track_count) if track_count.isdigit() else 5
 # For production
 # Create input for user_id or url to extract from
 
-# Get the user's ID
+#Get the user's ID
 user_id = sp.current_user()['id']
 
 random_artist = get_artists_by_genre(genre_name= genre)
