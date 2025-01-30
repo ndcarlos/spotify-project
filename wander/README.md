@@ -1,53 +1,50 @@
+![Project Header](wander.png)
+![Project Header](wander_ex20241129.png)
+
 # wander
 
-With endless artists to choose from, it is hard to find new music to enjoy. Wander creates and populates your wander👣🪩 playlist - your personalized recommendations of new artists to discover and explore. 
+With so many artists to choose from, it can be overwhelming to find new music. Wander curates and fills your wander👣🪩 playlist with personalized recommendations, helping you chart a new path to discover and explore fresh artists.
 
 ## Table of Contents
 
-*   [🙋 What is covered in this README?](#what-is-covered-in-this-README)
-*   [🌐 Global Dependencies](#getting-started)
-    *   [🕸️ Spotify Web API](#spotify-web-api)
-    *   [📚 Libraries](#libraries)
-*   [⏬ Install](#install)
-*   [🗂️ Main Contents](#main-contents)
-   *   [💻 Applications](#applications)
-   *   [📝 Scripts](#scripts) 
+*   [🙋 What is covered in this README?](#what-is-covered-in-this-readme)
+*   [🌐 Global dependencies](#global-dependencies)
+*   [📍Local dependencies](#local-dependencies)
+*   [🚀 Getting started](#getting-started)
+*   [🗂️ Main contents](#main-contents)
 *   [🤝 Contribute](#contribute)
 *   [©️ License](#license)
 *   [🔌 Sources](#sources)
 
-## 🙋 What is covered in this README
-This README intends to provide a high-level overview of the files and folders of significance in this repository. 
+## What is covered in this README?
+This README intends to provide a high-level overview of the wander folder contained in [spotify-project](https://github.com/ndcarlos/spotify-project/tree/main). 
 
-## 🌐 Global dependencies
-_Note: local dependencies for projects will be detailed in their respective READMEs_
-   * ### 🕸️ [Spotify Web API](https://developer.spotify.com/documentation/web-api)
-      *  [Spotipy](https://spotipy.readthedocs.io/en/2.24.0/) is a lightweight Python library for the Spotify Web API. With Spotipy you get full access to all of the music data provided by the Spotify platform.  
-   * ### 📚 Libraries
-      * [dotenv](https://pypi.org/project/python-dotenv/) - Used to read key-value pairs from a `.env` file and can set them as environment variables. Specifically utilized in this repo to boost security by storing and loading sensitive API credentials.
-      * [os](https://docs.python.org/3/library/os.html) - Python's built-in module for interacting with the operating system. This is used with `dotenv` to execute the retrieval of environmental variables.
+## Global dependencies
+See the repository level [README](https://github.com/ndcarlos/spotify-project/blob/main/README.md).
 
+## Local dependencies
+* [random](https://docs.python.org/3/library/random.html#random.choice) - This module implements pseudo-random number generators for various distributions. Here it is used in selecting a random artist from a JSON object.
 
-## ⏬ Install
-Use git to clone this project into your computer.
-
-```
-git clone https://github.com/ndcarlos/spotify-project/wander
-```
-
-## 🗂️ Main Contents
-Contents denoted with 🏗️ are currently under construction.
+## Getting started
+See the [getting started](https://github.com/ndcarlos/spotify-project/blob/main/wander/gettingstarted.md) documentation.
 
 
-## 🤝 Contribute
+## Main Contents
+Scripts denoted with 🏗️ are not yet complete.
+* [wander.py](https://github.com/ndcarlos/spotify-project/blob/main/wander/wander.py) - New artist discovery tool.
+* [wander_ex20241129](https://github.com/ndcarlos/spotify-project/blob/main/wander/wander_ex20241129.png) - Header image for the readme
+
+
+
+## Contribute
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## ©️ License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## 🔌 Sources
+## Sources
 
 [react-markdown][react-markdown] - Project which served as an inspiration for this README
 

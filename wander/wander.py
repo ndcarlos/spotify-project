@@ -1,17 +1,20 @@
 # wander - get lost exploring new artists
 
 # import packages
+<<<<<<< HEAD
 # from flask import Flask
+=======
+>>>>>>> 4130fcd508af95a66552dc70eed0288f987b0903
 import random
 import spotipy
 import os
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
-from get_token import response
 
 # load environment variables
 load_dotenv()
 
+<<<<<<< HEAD
 # initialize Flask app
 # app = Flask(__name__)
 # app.secret_key = os.getenv('FLASK_SECRET_KEY')
@@ -21,6 +24,9 @@ load_dotenv()
 #     return 'Flask app with a secure key!'
 
 #
+=======
+
+>>>>>>> 4130fcd508af95a66552dc70eed0288f987b0903
 
 # retrieve sensitive information from environment variables
 client_id = os.getenv('SPOTIPY_CLIENT_ID')
@@ -93,7 +99,13 @@ track_count = int(track_count) if track_count.isdigit() else 5
 # For production
 # Create input for user_id or url to extract from
 
+<<<<<<< HEAD
 #Get the user's ID
+=======
+# Get the user's ID
+
+
+>>>>>>> 4130fcd508af95a66552dc70eed0288f987b0903
 user_id = sp.current_user()['id']
 
 random_artist = get_artists_by_genre(genre_name= genre)
