@@ -3,7 +3,7 @@ import requests
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'wander')))
-from Spotify_10.24 import wander
+from Spotify_10_24 import wander
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -17,7 +17,7 @@ def index(request):
 		track_count = request.POST.get('track_count')
 
 		#Process data through wander.py
-		result = wander.wander.get_artists_by_genre(genre)
+		result = wander.get_artists_by_genre(genre)
 
 
 		return request, 'index.html', {'result:'}
