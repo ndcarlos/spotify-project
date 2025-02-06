@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wander👣🪩</title>
+    {% load static%}
+    <link rel="stylesheet" type="text/css" href="{% static 'wander/css/styles.css' %}">
+</head>
+<body>
+
+<h1>wander👣🪩</h1>
+    <form id="music-form" method="POST">
+        {% csrf_token %}
+        <label for="genre">
+            If you would like to wander within a specific genre,
+            input it here (Or press Enter to skip):
+        </label>
+        <input type="text" id="artist" name="artist">
+        <br>
+        <br>
+        <label for="track_count">
+            Specify the number of steps you want to wander down
+            this path (Default is 5)
+        </label>
+        <input type="select" id="track_count" min="1" max="10" step="1", value="5">
+        <br>
+        <br>
+        <button type="submit">It's time for a new adventure</button>
+    </form>
+    <script src="{% static 'wander/script.js' %}"></script>
+</body>
+</html>
