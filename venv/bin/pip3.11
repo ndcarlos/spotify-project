@@ -1,4 +1,4 @@
-#!/Users/home/PycharmProjects/spotipy/venv/bin/python
+#!/Users/home/Documents/Projects/Python/Spotify_10.24/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -3,7 +3,7 @@ import requests
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'wander')))
-from Spotify_10_24 import wander
+from . import wander
 from django.shortcuts import render
 from django.http import HttpResponse
 
