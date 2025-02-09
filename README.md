@@ -14,6 +14,7 @@ This repository contains various files, scripts, and applications I created usin
 *   🗂️ [Contents](#contents)
    *   💻 [Projects](#projects)
    *   📝 [Scripts](#scripts)
+*   🔮 [Future plans](#future-plans)
 *   🤝 [Contribute](#contribute)
 *   ©️ [License](#license)
 *   🔌 [Sources](#sources)
@@ -48,6 +49,7 @@ Files denoted with 🏗️ are not yet complete.
    * ### Scripts 
       * [`get_token.py`](https://github.com/ndcarlos/spotify-project/blob/main/get_token.py): Retrieves authorization tokens from Spotify Web API and stores it as `access_token`
 
+## Future Plans
 
 ## Contribute
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
