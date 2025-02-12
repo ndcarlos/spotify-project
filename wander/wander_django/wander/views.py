@@ -7,7 +7,11 @@ from . import wander
 from django.shortcuts import render
 from django.http import HttpResponse
 
-
+def spotify_login(request):
+    return render(request, "spotify_login.html", {
+        "spotify_client_id": os.getenv("SPOTIPY_CLIENT_ID"),
+        "spotify_redirect_uri": os.getenv("SPOTIPY_REDIRECT_URI"),
+    })
 
 # Landing and form processing page
 def index(request):

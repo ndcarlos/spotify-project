@@ -16,9 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from wander.views import spotify_login
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("accounts/", include('allauth.urls')),
     path('', include('wander.urls')),
+    path("spotify-login/", spotify_login, name="spotify-login"),
 ]
